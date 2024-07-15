@@ -1,0 +1,93 @@
+@font-face {
+    font-family: 'JusticeFont';
+    src: url('BebasNeue-Regular.ttf') format("truetype");
+
+}
+
+body {
+    background-image: url("kiosk.png");
+    #background-color: #cccccc;
+    background-size: cover;
+}
+
+.Title {
+    font-family: 'JusticeFont';
+    font-size: 72px;
+    color: #FFFFFF;
+    #font-family: Arial;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+
+.Text {
+    font-family: 'JusticeFont';
+    font-size: 40px;
+    color: #FFFFFF;
+    #font-family: Arial;
+    max-width: 35ch;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    position: absolute;
+    left: 100px;
+}
+
+#Title_1 {
+    position: absolute;
+    left: 100px;
+    top: 100px;
+}
+
+
+#Title_2 {
+    position: absolute;
+    left: 110px;
+    top: 180px;
+}
+
+#Time {
+    font-family: 'JusticeFont';
+    font-size: 100px;
+    position: absolute;
+    left: 1315px;
+    top: 900px;
+    color: black
+}
+
+#textbody_1 {
+    top: 400px;
+}
+
+#textbody_2 {
+    top: 450px;
+}
+
+#textbody_3 {
+    top: 500px;
+}
+
+#textbody_4 {
+    top: 700px;
+}
+
+#textbody_5 {
+    top: 750px;
+}
+
+#textbody_6 {
+    top: 800px;
+}
+
+.Weather {
+    position: absolute;
+    top: 810px;
+    left: 1310px;
+    overflow: hidden;
+    height: 80px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    border-bottom-style: solid;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+}

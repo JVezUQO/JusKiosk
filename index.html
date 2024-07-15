@@ -1,0 +1,36 @@
+<!doctype html>
+<!-- By Jean Vézina -->
+<meta http-equiv="refresh" content="3600; url=index.html"> <!-- Refresh to pull more accurate data for weather each hour -->
+<html>
+<head>
+	<title>Kiosk Page</title>
+	<meta name="description" content="Kiosk Page">
+	<meta name="keywords" content="Kiosk page">
+</head>
+<body>
+	<link rel="stylesheet" type="text/css" href="index.css">
+
+	<Div class="Title" id="Title_1"> Bienvenue à SAT 11 </Div>
+
+	<Div class="Title" id="Title_2"> Welcome to SAT 11 </Div>
+
+	<Div class="Title" id="Time"></Div>
+
+	<div class="Text" id="textbody_1"></div>
+	<div class="Text" id="textbody_2"></div>
+	<div class="Text" id="textbody_3"></div>
+	<div class="Text" id="textbody_4"></div>
+	<div class="Text" id="textbody_5"></div>
+	<div class="Text" id="textbody_6"></div>
+
+	<!-- Begin WeatherLink Fragment -->
+	<iframe class="Weather" title="Environment Canada Weather" scrolling="no" width="287px" height="191px" src="https://weather.gc.ca/wxlink/wxlink.html?cityCode=on-52&amp;lang=e" allowtransparency="true" frameborder="0"></iframe>
+	<!-- End WeatherLink Fragment -->
+
+
+
+	<script src="time.js"></script>
+	<script src="text.js"></script>
+</body>
+
+</html>
